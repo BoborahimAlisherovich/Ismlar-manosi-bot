@@ -53,14 +53,14 @@ async def kanalga_obuna(message:Message):
 #help commands
 @dp.message(Command("help"))
 async def help_commands(message:Message):
-    await message.answer("Sizga qanday yordam kerak")
+    await message.answer("Bu botga ism kriting va manosini chiqarib oling")
 
 
 
 #about commands
 @dp.message(Command("about"))
 async def about_commands(message:Message):
-    await message.answer("Sifat 2024")
+    await message.answer("Rustamqulov Boborahim SIFAT uquv markazi uquvchisi bu bot 2024 -yil mart oyida ishlandi")
 
 
 @dp.message(Command("admin"),IsBotAdminFilter(ADMINS))
